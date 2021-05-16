@@ -161,7 +161,7 @@ int main()
       cout<< ">>Your zodiac sign is : Aquaris"<< endl;
     }  
   }
-  
+  // ^ Here also i could have used switch case method but since i have written it already i didn't want to erase and write it again :: sorry :)
   
   // Horoscope Indication
   switch(month)
