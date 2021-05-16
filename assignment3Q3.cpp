@@ -7,18 +7,20 @@ int main()
 {
   int day;
   int month;
-  cout<< "Give your Date of Birth so that I can tell you your sign and horoscope : \n";
-  cout<< "Day : ";
-  cin >> day;
   
-  cout<< "\n";
+  // Zodiac sign indication
+  for(string start;;){
+    cout<< "Give your Date of Birth so that I can tell you your sign and horoscope : \n";
+    cout<< "Day : ";
+    cin >> day;
   
-  cout<< "Month : ";
-  cin>> month;
-  cout<< "\n";
+    cout<< "\n";
   
-  for(string start;;){// Zodiac sign indication
-  if(month == 3)
+    cout<< "Month : ";
+    cin>> month;
+    cout<< "\n";
+
+    if(month == 3)
   {
     if(day >= 21 && day <= 31)
     {
