@@ -10,17 +10,19 @@ int main()
   string sign;
   
   
-  cout<< "Give your Date of Birth so that I can tell you your sign and horoscope : \n";
-  cout<< "Day : ";
-  cin >> day;
+  for(string start;;){
+    cout<< "Give your Date of Birth so that I can tell you your sign and horoscope : \n";
+    cout<< "Day : ";
+    cin >> day;
   
-  cout<< "\n";
+    cout<< "\n";
   
-  cout<< "Month : ";
-  cin>> month;
-  cout<< "\n";
-  
-  for(string start;;){// Zodiac sign indication
+    cout<< "Month : ";
+    cin>> month;
+    cout<< "\n";
+
+      
+  //Zodiac sign indication .  
   if(month == 3)
   {
     if(day >= 21 && day <= 31)
@@ -253,7 +255,7 @@ int main()
       
   
   
-  cout<<"\n\n\n >>To recalculate type Y or N to terminate : ";
+    cout<<"\n\n\n >>To recalculate type Y or N to terminate : ";
     cin>> start;
     if(start == "N")
     {
